@@ -5,6 +5,8 @@ class Main extends Phaser.Scene {
         super({key: 'Main' });
     }
 
+    init (){console.log("Main...")}
+
     create(){
         
     }

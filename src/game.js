@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { Preload, Main } from './scenes/scenes';
+import { Preload, Main, Results } from 'scenes/scenes';
 
 /**
  * Set up game config and create scenes

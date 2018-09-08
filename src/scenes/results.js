@@ -5,6 +5,8 @@ class Results extends Phaser.Scene {
         super({key: 'Results' });
     }
 
+    init (){console.log("Results...")}
+
     create(){
         
     }

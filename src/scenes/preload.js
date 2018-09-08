@@ -5,8 +5,12 @@ class Preload extends Phaser.Scene {
         super({key: 'Preload' });
     }
 
+    init(){console.log("Preload...")}
+
+    preload(){}
+
     create(){
-        
+        this.scene.start('Main');
     }
 
 }
